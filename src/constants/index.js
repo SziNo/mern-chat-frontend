@@ -32,3 +32,5 @@ export const THEMES = [
   'nord',
   'sunset',
 ]
+
+export const MAX_FILE_SIZE = 3 * 1024 * 1024 // 3mb
