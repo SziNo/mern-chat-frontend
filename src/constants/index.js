@@ -1,3 +1,14 @@
+export const MAX_FILE_SIZE = 3 * 1024 * 1024 // 3mb
+
+export const PREVIEW_MESSAGES = [
+  { id: 1, content: "Hey! How's it going?", isSent: false },
+  {
+    id: 2,
+    content: "I'm doing great! Just working on some new features.",
+    isSent: true,
+  },
+]
+
 export const THEMES = [
   'light',
   'dark',
@@ -32,5 +43,3 @@ export const THEMES = [
   'nord',
   'sunset',
 ]
-
-export const MAX_FILE_SIZE = 3 * 1024 * 1024 // 3mb
