@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link
               to={'/settings'}
               className={`
-              btn btn-sm gap-2 transition-colors
+              btn btn-sm gap-1 transition-colors
               
               `}
             >
@@ -38,12 +38,15 @@ const Navbar = () => {
 
             {authUser && (
               <>
-                <Link to={'/profile'} className={`btn btn-sm gap-2`}>
+                <Link to={'/profile'} className={`btn btn-sm gap-1`}>
                   <User className='size-5' />
                   <span className='hidden sm:inline'>Profile</span>
                 </Link>
 
-                <button className='flex gap-2 items-center' onClick={logout}>
+                <button
+                  className='flex gap-1 items-center py-1 px-2 rounded-md hover:bg-base-300'
+                  onClick={logout}
+                >
                   <LogOut className='size-5' />
                   <span className='hidden sm:inline'>Logout</span>
                 </button>
