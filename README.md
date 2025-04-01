@@ -1,12 +1,48 @@
-# React + Vite
+# MERN Chat - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+This project is the frontend for a real-time chat application built using **React**, **TailwindCSS**, **Zustand**, and **Socket.io**. It connects to the MERN Chat Backend to provide authentication, messaging, and a customizable user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Project
 
-## Expanding the ESLint configuration
+- **Backend URL**: [MERN Chat Backend](https://mern-chat-backend-j0dv.onrender.com/)
+- **Frontend GitHub**: [MERN Chat Frontend Repository](https://github.com/SziNo/mern-chat-frontend)
+- **Live Frontend URL**: [MERN Chat Frontend](https://mern-chat-frontend-lemon.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+This project utilizes the following technologies:
+
+- **React** – Component-based frontend framework.
+- **React Router** – Enables navigation between pages.
+- **Zustand** – State management for handling user and chat data.
+- **Socket.io Client** – Real-time messaging support.
+- **Axios** – Handles API calls.
+- **Tailwind CSS** & **DaisyUI** – UI styling and customization.
+- **React Hot Toast** – Displays notifications.
+
+## 🎮 How to Use
+
+1. **Sign Up**
+
+   - You don’t need a real email—use something like `humanboi@yesyes.com`.
+   - Password must be at least 6 characters, e.g., `111111`.
+   - After signing up, you'll be logged in automatically.
+
+2. **Start Chatting**
+
+   - Once logged in, you'll see a list of users available for chat.
+   - Click on a user to open a chat and start messaging.
+
+3. **Update Your Profile**
+
+   - Go to the **Profile** section to change your avatar.
+   - Upload an image, and it will be stored securely with **Cloudinary**.
+
+4. **Customize The Theme**
+
+   - Navigate to **Settings** and switch between different themes to personalize the experience.
+
+5. **Logout Anytime**
+   - Click **Logout** to securely exit the chat.
