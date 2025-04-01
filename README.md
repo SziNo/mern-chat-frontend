@@ -6,7 +6,8 @@ This project is the frontend for a real-time chat application built using **Reac
 
 ## 🌐 Live Project
 
-- **Backend URL**: [MERN Chat Backend](https://mern-chat-backend-j0dv.onrender.com/)
+The backend for this project is hosted on **Render**, which includes a sleep functionality to conserve resources. As a result, **the first request to the server may experience a delay**. Subsequent requests will perform normally.
+
 - **Backend GitHub**: [MERN Chat Backend Repository](https://github.com/SziNo/mern-chat-backend)
 - **Live Frontend URL**: [MERN Chat Frontend](https://mern-chat-frontend-lemon.vercel.app/)
 
