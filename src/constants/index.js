@@ -44,4 +44,4 @@ export const THEMES = [
   'sunset',
 ]
 
-export const BASE_URL = 'http://localhost:5001'
+export const BASE_URL = 'https://mern-chat-backend-j0dv.onrender.com'
