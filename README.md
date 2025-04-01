@@ -28,7 +28,9 @@ This project utilizes the following technologies:
 
    - You don’t need a real email—use something like `humanboi@yesyes.com`.
    - Password must be at least 6 characters, e.g., `111111`.
-   - After signing up, you'll be logged in automatically.
+   - After signing up, you'll be redirected to the login page where you can log in.
+
+     **Ideally you'd want to register a second user and login with that in a seperate browser/window to test chat functionalities.**
 
 2. **Start Chatting**
 
